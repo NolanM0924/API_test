@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApiTest.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+            Spacing="25">
+            <Label
+                Text="HTTP Bin API Test"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Button
+                x:Name="GetButton"
+                Text="Test GET Request"
+                SemanticProperties.Hint="Tests GET request to httpbin"
+                Clicked="OnGetClicked"
+                HorizontalOptions="Center" />
+
+            <Button
+                x:Name="PostButton"
+                Text="Test POST Request"
+                SemanticProperties.Hint="Tests POST request to httpbin"
+                Clicked="OnPostClicked"
+                HorizontalOptions="Center" />
+
+            <Label
+                x:Name="ResultLabel"
+                Text="API response will appear here"
+                HorizontalOptions="Center" />
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
