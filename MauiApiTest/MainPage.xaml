@@ -36,12 +36,34 @@
                 FontSize="14"
                 HorizontalOptions="Center" />
 
-            <Button 
-                x:Name="LoadImageButton"
-                Text="Load Image"
-                SemanticProperties.Hint="Loads the image from resources"
-                Clicked="OnLoadImageClicked"
-                HorizontalOptions="Center" />
+            <HorizontalStackLayout
+                Spacing="10"
+                HorizontalOptions="Center">
+                <Button 
+                    x:Name="LoadImageButton"
+                    Text="Load Image"
+                    SemanticProperties.Hint="Loads the image from resources"
+                    Clicked="OnLoadImageClicked"
+                    HorizontalOptions="Center" />
+                
+                <Button 
+                    x:Name="CameraButton"
+                    Text="Take Photo"
+                    BackgroundColor="#0078D7"
+                    TextColor="White"
+                    SemanticProperties.Hint="Takes a photo with the camera"
+                    Clicked="OnCameraClicked"
+                    HorizontalOptions="Center" />
+                
+                <Button 
+                    x:Name="GalleryButton"
+                    Text="Choose from Gallery"
+                    BackgroundColor="#6C757D"
+                    TextColor="White"
+                    SemanticProperties.Hint="Picks an image from the gallery"
+                    Clicked="OnGalleryClicked"
+                    HorizontalOptions="Center" />
+            </HorizontalStackLayout>
 
             <Label 
                 x:Name="PathLabel"
@@ -77,6 +99,16 @@
                     Text="Test POST Request"
                     SemanticProperties.Hint="Makes a POST request to test API"
                     Clicked="OnPostClicked"
+                    HorizontalOptions="Center" />
+                
+                <Button 
+                    x:Name="PostCameraButton"
+                    Text="POST Camera Image"
+                    BackgroundColor="#28A745"
+                    TextColor="White"
+                    SemanticProperties.Hint="Upload camera photo via POST"
+                    Clicked="OnPostCameraClicked"
+                    IsEnabled="False"
                     HorizontalOptions="Center" />
             </HorizontalStackLayout>
 
