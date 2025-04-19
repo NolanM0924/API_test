@@ -341,11 +341,27 @@ public partial class MainPage : ContentPage
 		// On Android API 33+ we need to use the Photos permission
 		if (DeviceInfo.Platform == DevicePlatform.Android && DeviceInfo.Version.Major >= 13)
 		{
+#if IOS || MACCATALYST
+			if (OperatingSystem.IsIOSVersionAtLeast(14) || OperatingSystem.IsMacCatalystVersionAtLeast(14))
+			{
+				status = await Permissions.CheckStatusAsync<Permissions.Photos>();
+				if (status != PermissionStatus.Granted)
+				{
+					status = await Permissions.RequestAsync<Permissions.Photos>();
+				}
+			}
+			else
+			{
+				// For older iOS versions that don't support Photos permission
+				status = PermissionStatus.Granted; // Assume granted since we can't check
+			}
+#else
 			status = await Permissions.CheckStatusAsync<Permissions.Photos>();
 			if (status != PermissionStatus.Granted)
 			{
 				status = await Permissions.RequestAsync<Permissions.Photos>();
 			}
+#endif
 		}
 		else
 		{
