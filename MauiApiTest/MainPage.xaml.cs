@@ -13,7 +13,7 @@ public partial class MainPage : ContentPage
 	private const string POST_URL = "https://httpbin.org/post";
 	private int currentImageIndex = 1;
 	private const int MaxImages = 2;
-	private string _capturedPhotoPath;
+	private string? _capturedPhotoPath = null;
 
 	public MainPage()
 	{
