@@ -58,9 +58,13 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[9.0.14, )"
             },
@@ -103,9 +107,13 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[9.0.14, )"
             },
@@ -148,9 +156,13 @@
           "dependencies": {
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[8.0.0, )"
             },
             "Microsoft.Maui.Controls": {
+              "target": "Package",
+              "version": "[9.0.14, )"
+            },
+            "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[9.0.14, )"
             },

@@ -1,3 +1,8 @@
+/Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/Resources/Resources/Raw/image1.png
+/Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/Resources/Resources/Raw/image2.png
+/Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/Resources/AboutAssets.txt
+/Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/Resources/image1.png
+/Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/Resources/image2.png
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/MonoBundle/ar/Microsoft.Maui.Controls.resources.dll
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/MonoBundle/ca/Microsoft.Maui.Controls.resources.dll
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/MonoBundle/cs/Microsoft.Maui.Controls.resources.dll
@@ -42,6 +47,7 @@
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/MonoBundle/Microsoft.Extensions.Logging.Debug.dll
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/MonoBundle/Microsoft.Extensions.Options.dll
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/MonoBundle/Microsoft.Extensions.Primitives.dll
+/Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/MonoBundle/Microsoft.Maui.Controls.Compatibility.dll
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/MonoBundle/Microsoft.Maui.Controls.dll
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/MonoBundle/Microsoft.Maui.Controls.Xaml.dll
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/publish/../MauiApiTest.app/Contents/MonoBundle/Microsoft.Maui.dll

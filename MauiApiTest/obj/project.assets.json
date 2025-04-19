@@ -132,25 +132,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -207,6 +207,25 @@
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/netstandard2.0/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -2509,25 +2528,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -2584,6 +2603,25 @@
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/netstandard2.0/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -4886,25 +4924,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -4961,6 +4999,25 @@
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/netstandard2.0/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -7263,25 +7320,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -7338,6 +7395,25 @@
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/netstandard2.0/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -9640,25 +9716,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -9715,6 +9791,25 @@
         "build": {
           "buildTransitive/netstandard2.0/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/netstandard2.0/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".aar;.pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -12001,25 +12096,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -12076,6 +12171,25 @@
         "build": {
           "buildTransitive/net6.0-ios10.0/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/net6.0-ios10.0/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -12403,25 +12517,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -12478,6 +12592,25 @@
         "build": {
           "buildTransitive/net6.0-ios10.0/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/net6.0-ios10.0/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -12805,25 +12938,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -12880,6 +13013,25 @@
         "build": {
           "buildTransitive/net6.0-ios10.0/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/net6.0-ios10.0/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -13207,25 +13359,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -13282,6 +13434,25 @@
         "build": {
           "buildTransitive/net6.0-ios10.0/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/net6.0-ios10.0/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -13609,25 +13780,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -13684,6 +13855,25 @@
         "build": {
           "buildTransitive/net6.0-ios10.0/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/net6.0-ios10.0/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-ios18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-ios18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -14011,25 +14201,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -14086,6 +14276,25 @@
         "build": {
           "buildTransitive/net6.0-maccatalyst13.1/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/net6.0-maccatalyst13.1/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -14413,25 +14622,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -14488,6 +14697,25 @@
         "build": {
           "buildTransitive/net6.0-maccatalyst13.1/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/net6.0-maccatalyst13.1/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -14815,25 +15043,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -14890,6 +15118,25 @@
         "build": {
           "buildTransitive/net6.0-maccatalyst13.1/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/net6.0-maccatalyst13.1/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -15217,25 +15464,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -15292,6 +15539,25 @@
         "build": {
           "buildTransitive/net6.0-maccatalyst13.1/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/net6.0-maccatalyst13.1/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -15619,25 +15885,25 @@
           "buildTransitive/net8.0/Microsoft.Extensions.Logging.Abstractions.targets": {}
         }
       },
-      "Microsoft.Extensions.Logging.Debug/9.0.0": {
+      "Microsoft.Extensions.Logging.Debug/8.0.0": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.0",
-          "Microsoft.Extensions.Logging": "9.0.0",
-          "Microsoft.Extensions.Logging.Abstractions": "9.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.Logging": "8.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "8.0.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll": {
+          "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll": {
             "related": ".xml"
           }
         },
         "build": {
-          "buildTransitive/net8.0/_._": {}
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "Microsoft.Extensions.Options/9.0.0": {
@@ -15694,6 +15960,25 @@
         "build": {
           "buildTransitive/net6.0-maccatalyst13.1/Microsoft.Maui.Controls.Build.Tasks.props": {},
           "buildTransitive/net6.0-maccatalyst13.1/Microsoft.Maui.Controls.Build.Tasks.targets": {}
+        }
+      },
+      "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0",
+          "Microsoft.Extensions.Logging.Abstractions": "9.0.0",
+          "Microsoft.Maui.Controls.Core": "9.0.14",
+          "Microsoft.Maui.Controls.Xaml": "9.0.14"
+        },
+        "compile": {
+          "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Controls.Compatibility.dll": {
+            "related": ".pdb;.xml"
+          }
         }
       },
       "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -16144,10 +16429,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Logging.Debug/9.0.0": {
-      "sha512": "4wGlHsrLhYjLw4sFkfRixu2w4DK7dv60OjbvgbLGhUJk0eUPxYHhnszZ/P18nnAkfrPryvtOJ3ZTVev0kpqM6A==",
+    "Microsoft.Extensions.Logging.Debug/8.0.0": {
+      "sha512": "dt0x21qBdudHLW/bjMJpkixv858RRr8eSomgVbU8qljOyfrfDGi1JQvpF9w8S7ziRPtRKisuWaOwFxJM82GxeA==",
       "type": "package",
-      "path": "microsoft.extensions.logging.debug/9.0.0",
+      "path": "microsoft.extensions.logging.debug/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -16157,17 +16442,19 @@
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/Microsoft.Extensions.Logging.Debug.targets",
         "buildTransitive/net462/_._",
-        "buildTransitive/net8.0/_._",
+        "buildTransitive/net6.0/_._",
         "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Logging.Debug.targets",
         "lib/net462/Microsoft.Extensions.Logging.Debug.dll",
         "lib/net462/Microsoft.Extensions.Logging.Debug.xml",
+        "lib/net6.0/Microsoft.Extensions.Logging.Debug.dll",
+        "lib/net6.0/Microsoft.Extensions.Logging.Debug.xml",
+        "lib/net7.0/Microsoft.Extensions.Logging.Debug.dll",
+        "lib/net7.0/Microsoft.Extensions.Logging.Debug.xml",
         "lib/net8.0/Microsoft.Extensions.Logging.Debug.dll",
         "lib/net8.0/Microsoft.Extensions.Logging.Debug.xml",
-        "lib/net9.0/Microsoft.Extensions.Logging.Debug.dll",
-        "lib/net9.0/Microsoft.Extensions.Logging.Debug.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Logging.Debug.xml",
-        "microsoft.extensions.logging.debug.9.0.0.nupkg.sha512",
+        "microsoft.extensions.logging.debug.8.0.0.nupkg.sha512",
         "microsoft.extensions.logging.debug.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -16346,6 +16633,51 @@
         "buildTransitive/netstandard2.0/zh-Hant/Microsoft.Maui.Controls.Build.Tasks.resources.dll",
         "microsoft.maui.controls.build.tasks.9.0.14.nupkg.sha512",
         "microsoft.maui.controls.build.tasks.nuspec"
+      ]
+    },
+    "Microsoft.Maui.Controls.Compatibility/9.0.14": {
+      "sha512": "242uJlP+tqvZESUbVXR4QZPCvfuOAM6s/Zu/ZDlfPrlAVDv3+cFPFYOQfoWA7sqvyVx81hXsJj2BmR6AFANGsw==",
+      "type": "package",
+      "path": "microsoft.maui.controls.compatibility/9.0.14",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.aar",
+        "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.dll",
+        "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.pdb",
+        "lib/net9.0-android35.0/Microsoft.Maui.Controls.Compatibility.xml",
+        "lib/net9.0-ios18.0/Microsoft.Maui.Controls.Compatibility.dll",
+        "lib/net9.0-ios18.0/Microsoft.Maui.Controls.Compatibility.pdb",
+        "lib/net9.0-ios18.0/Microsoft.Maui.Controls.Compatibility.xml",
+        "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Controls.Compatibility.dll",
+        "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Controls.Compatibility.pdb",
+        "lib/net9.0-maccatalyst18.0/Microsoft.Maui.Controls.Compatibility.xml",
+        "lib/net9.0-tizen7.0/Microsoft.Maui.Controls.Compatibility.dll",
+        "lib/net9.0-tizen7.0/Microsoft.Maui.Controls.Compatibility.pdb",
+        "lib/net9.0-tizen7.0/Microsoft.Maui.Controls.Compatibility.xml",
+        "lib/net9.0-windows10.0.19041/Microsoft.Maui.Controls.Compatibility.dll",
+        "lib/net9.0-windows10.0.19041/Microsoft.Maui.Controls.Compatibility.pdb",
+        "lib/net9.0-windows10.0.19041/Microsoft.Maui.Controls.Compatibility.pri",
+        "lib/net9.0-windows10.0.19041/Microsoft.Maui.Controls.Compatibility.xml",
+        "lib/net9.0-windows10.0.20348/Microsoft.Maui.Controls.Compatibility.dll",
+        "lib/net9.0-windows10.0.20348/Microsoft.Maui.Controls.Compatibility.pdb",
+        "lib/net9.0-windows10.0.20348/Microsoft.Maui.Controls.Compatibility.pri",
+        "lib/net9.0-windows10.0.20348/Microsoft.Maui.Controls.Compatibility.xml",
+        "lib/net9.0/Microsoft.Maui.Controls.Compatibility.dll",
+        "lib/net9.0/Microsoft.Maui.Controls.Compatibility.pdb",
+        "lib/net9.0/Microsoft.Maui.Controls.Compatibility.xml",
+        "lib/netstandard2.0/Microsoft.Maui.Controls.Compatibility.dll",
+        "lib/netstandard2.0/Microsoft.Maui.Controls.Compatibility.pdb",
+        "lib/netstandard2.0/Microsoft.Maui.Controls.Compatibility.xml",
+        "lib/netstandard2.1/Microsoft.Maui.Controls.Compatibility.dll",
+        "lib/netstandard2.1/Microsoft.Maui.Controls.Compatibility.pdb",
+        "lib/netstandard2.1/Microsoft.Maui.Controls.Compatibility.xml",
+        "microsoft.maui.controls.compatibility.9.0.14.nupkg.sha512",
+        "microsoft.maui.controls.compatibility.nuspec"
       ]
     },
     "Microsoft.Maui.Controls.Core/9.0.14": {
@@ -18923,18 +19255,21 @@
   },
   "projectFileDependencyGroups": {
     "net9.0-android35.0": [
-      "Microsoft.Extensions.Logging.Debug >= 9.0.0",
+      "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 9.0.14",
+      "Microsoft.Maui.Controls.Compatibility >= 9.0.14",
       "Microsoft.NET.ILLink.Tasks >= 9.0.2"
     ],
     "net9.0-ios18.4": [
-      "Microsoft.Extensions.Logging.Debug >= 9.0.0",
+      "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 9.0.14",
+      "Microsoft.Maui.Controls.Compatibility >= 9.0.14",
       "Microsoft.NET.ILLink.Tasks >= 9.0.2"
     ],
     "net9.0-maccatalyst18.4": [
-      "Microsoft.Extensions.Logging.Debug >= 9.0.0",
+      "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 9.0.14",
+      "Microsoft.Maui.Controls.Compatibility >= 9.0.14",
       "Microsoft.NET.ILLink.Tasks >= 9.0.2"
     ]
   },
@@ -18995,9 +19330,13 @@
         "dependencies": {
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
-            "version": "[9.0.0, )"
+            "version": "[8.0.0, )"
           },
           "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "[9.0.14, )"
+          },
+          "Microsoft.Maui.Controls.Compatibility": {
             "target": "Package",
             "version": "[9.0.14, )"
           },
@@ -19040,9 +19379,13 @@
         "dependencies": {
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
-            "version": "[9.0.0, )"
+            "version": "[8.0.0, )"
           },
           "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "[9.0.14, )"
+          },
+          "Microsoft.Maui.Controls.Compatibility": {
             "target": "Package",
             "version": "[9.0.14, )"
           },
@@ -19085,9 +19428,13 @@
         "dependencies": {
           "Microsoft.Extensions.Logging.Debug": {
             "target": "Package",
-            "version": "[9.0.0, )"
+            "version": "[8.0.0, )"
           },
           "Microsoft.Maui.Controls": {
+            "target": "Package",
+            "version": "[9.0.14, )"
+          },
+          "Microsoft.Maui.Controls.Compatibility": {
             "target": "Package",
             "version": "[9.0.14, )"
           },

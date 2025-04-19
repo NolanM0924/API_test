@@ -1,3 +1,8 @@
+/Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Resources/Raw/image1.png
+/Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Resources/Raw/image2.png
+/Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/AboutAssets.txt
+/Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/image1.png
+/Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/image2.png
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/MauiApiTest.runtimeconfig.json
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/MauiApiTest.dll
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/MauiApiTest.pdb
@@ -10,6 +15,7 @@
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Extensions.Logging.Debug.dll
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Extensions.Options.dll
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Extensions.Primitives.dll
+/Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Maui.Controls.Compatibility.dll
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Maui.Controls.dll
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Maui.Controls.Xaml.dll
 /Users/nolanmackie/Documents/GitHub/API_test/MauiApiTest/bin/Debug/net9.0-maccatalyst/maccatalyst-arm64/Microsoft.Maui.dll

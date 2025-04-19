@@ -4,32 +4,91 @@
              x:Class="MauiApiTest.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-            <Label
-                Text="HTTP Bin API Test"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" />
+        <VerticalStackLayout Spacing="25" Padding="30,0" VerticalOptions="Center">
 
-            <Button
-                x:Name="GetButton"
-                Text="Test GET Request"
-                SemanticProperties.Hint="Tests GET request to httpbin"
-                Clicked="OnGetClicked"
+            <!-- Image Section -->
+            <Label 
+                x:Name="StatusLabel"
+                Text="Ready to load image"
+                SemanticProperties.HeadingLevel="Level1"
+                FontSize="18"
                 HorizontalOptions="Center" />
 
-            <Button
-                x:Name="PostButton"
-                Text="Test POST Request"
-                SemanticProperties.Hint="Tests POST request to httpbin"
-                Clicked="OnPostClicked"
+            <Frame 
+                BorderColor="Gray"
+                Padding="10"
+                CornerRadius="10"
+                HeightRequest="400"
+                WidthRequest="400"
+                HorizontalOptions="Center">
+                <Image
+                    x:Name="MainImage"
+                    SemanticProperties.Description="Image loaded from resources"
+                    Aspect="AspectFit"
+                    HorizontalOptions="Center"
+                    VerticalOptions="Center" />
+            </Frame>
+
+            <Label 
+                x:Name="ErrorLabel"
+                Text=""
+                TextColor="Red"
+                FontSize="14"
                 HorizontalOptions="Center" />
 
-            <Label
+            <Button 
+                x:Name="LoadImageButton"
+                Text="Load Image"
+                SemanticProperties.Hint="Loads the image from resources"
+                Clicked="OnLoadImageClicked"
+                HorizontalOptions="Center" />
+
+            <Label 
+                x:Name="PathLabel"
+                Text="Path: Not loaded"
+                FontSize="12"
+                TextColor="Gray"
+                HorizontalOptions="Center" />
+
+            <!-- API Section -->
+            <BoxView 
+                HeightRequest="2" 
+                Color="Gray" 
+                Margin="0,20"/>
+
+            <Label 
+                x:Name="ApiStatusLabel"
+                Text="API Testing Section"
+                FontSize="18"
+                HorizontalOptions="Center" />
+
+            <HorizontalStackLayout 
+                Spacing="10" 
+                HorizontalOptions="Center">
+                <Button 
+                    x:Name="GetButton"
+                    Text="Test GET Request"
+                    SemanticProperties.Hint="Makes a GET request to test API"
+                    Clicked="OnGetClicked"
+                    HorizontalOptions="Center" />
+
+                <Button 
+                    x:Name="PostButton"
+                    Text="Test POST Request"
+                    SemanticProperties.Hint="Makes a POST request to test API"
+                    Clicked="OnPostClicked"
+                    HorizontalOptions="Center" />
+            </HorizontalStackLayout>
+
+            <Label 
                 x:Name="ResultLabel"
-                Text="API response will appear here"
-                HorizontalOptions="Center" />
+                Text=""
+                FontSize="12"
+                LineBreakMode="WordWrap"
+                HorizontalOptions="FillAndExpand" 
+                MaxLines="25"
+                Margin="10,0"/>
+
         </VerticalStackLayout>
     </ScrollView>
 

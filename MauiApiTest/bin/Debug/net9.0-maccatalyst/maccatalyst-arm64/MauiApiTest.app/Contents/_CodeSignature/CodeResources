@@ -16,6 +16,10 @@
 		<data>
 		a4931LwQWyxJVaXHNKKnIVb5aLM=
 		</data>
+		<key>Resources/MauiInfo.plist</key>
+		<data>
+		4jZ/pOJGXwmAFXCgk7LRa9BJH58=
+		</data>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<data>
 		oowkf1sL6T19nanXUObgmuayWqM=
@@ -27,6 +31,22 @@
 		<key>Resources/OpenSans-Semibold.ttf</key>
 		<data>
 		e9l638VD54Y/4MWopY5TuFs7IGM=
+		</data>
+		<key>Resources/Raw/image1.png</key>
+		<data>
+		3bjhPzTR44KekocFgTmTuHwCmAE=
+		</data>
+		<key>Resources/Raw/image2.png</key>
+		<data>
+		s8V6p+lrFShjC5Z22AOVpZsqt48=
+		</data>
+		<key>Resources/Resources/Raw/image1.png</key>
+		<data>
+		3bjhPzTR44KekocFgTmTuHwCmAE=
+		</data>
+		<key>Resources/Resources/Raw/image2.png</key>
+		<data>
+		s8V6p+lrFShjC5Z22AOVpZsqt48=
 		</data>
 		<key>Resources/appicon.icns</key>
 		<data>
@@ -44,6 +64,14 @@
 		<data>
 		2Ikgd4MekBz4KDFadcRsOaz6Qws=
 		</data>
+		<key>Resources/image1.png</key>
+		<data>
+		3bjhPzTR44KekocFgTmTuHwCmAE=
+		</data>
+		<key>Resources/image2.png</key>
+		<data>
+		s8V6p+lrFShjC5Z22AOVpZsqt48=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -51,14 +79,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UcIYbs06ncn3FT9lmvINgnzSAYO/p0kiviMotuP0HaM=
+			FstHSzrO2ejlj8fob+odVIUh5hQ9ZPK1D4hqmTm3uWc=
 			</data>
 		</dict>
 		<key>MonoBundle/MauiApiTest.pdb</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JQEH3k2AWJH/b6UR6Xnui1J8Nxs7C8wEACR5FZNNaHc=
+			FWVL8MHMMn63d84uWad+pjgrsyMcIFtZMtkuBOAQ6KA=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.CSharp.dll</key>
@@ -107,7 +135,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FyyI7owQaytVxFWdFnB+QS4sA0a9bmKWneXMzKMS/5Y=
+			eYsHFOPf6OgNEuL67oJXu10F5EMsl1zFEMuDsz/2AEg=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Extensions.Logging.dll</key>
@@ -143,6 +171,13 @@
 			<key>hash2</key>
 			<data>
 			Dbrb8wH9/v9vPUdCWbePsHdG9/mUjcsGBQgE/+Is2ZU=
+			</data>
+		</dict>
+		<key>MonoBundle/Microsoft.Maui.Controls.Compatibility.dll</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8t5Iy091luqk/KWuU3OBVVtJ78w9uie1+FO9rGT2weg=
 			</data>
 		</dict>
 		<key>MonoBundle/Microsoft.Maui.Controls.Xaml.dll</key>
@@ -1629,6 +1664,13 @@
 			tHXIdQgmdh0ic/kPFTzldeIcUsxkJWK7CK5Af9xgNWM=
 			</data>
 		</dict>
+		<key>Resources/MauiInfo.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			D7xF2d/FAU0oXTW+VlzYG1hotU4XDYbby3Tmkh09oro=
+			</data>
+		</dict>
 		<key>Resources/MonoTouchDebugConfiguration.txt</key>
 		<dict>
 			<key>hash2</key>
@@ -1648,6 +1690,34 @@
 			<key>hash2</key>
 			<data>
 			ifqaHVr0777zQJt9u4wTYoPlNrkPfqCpzU30MskT8Uo=
+			</data>
+		</dict>
+		<key>Resources/Raw/image1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a2x0TRduwr0tLflJGsfByHtxEHjoSBiHU2hIVnJoy1o=
+			</data>
+		</dict>
+		<key>Resources/Raw/image2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3ocoYNBHx3/oucLfTyeDUxIdn0NWPqq3p3eyfcFJaVg=
+			</data>
+		</dict>
+		<key>Resources/Resources/Raw/image1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a2x0TRduwr0tLflJGsfByHtxEHjoSBiHU2hIVnJoy1o=
+			</data>
+		</dict>
+		<key>Resources/Resources/Raw/image2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3ocoYNBHx3/oucLfTyeDUxIdn0NWPqq3p3eyfcFJaVg=
 			</data>
 		</dict>
 		<key>Resources/appicon.icns</key>
@@ -1676,6 +1746,20 @@
 			<key>hash2</key>
 			<data>
 			xjB46IJZchU4aUkPUeVRhWJViqBU1K6H3B/8RQ1fB7M=
+			</data>
+		</dict>
+		<key>Resources/image1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			a2x0TRduwr0tLflJGsfByHtxEHjoSBiHU2hIVnJoy1o=
+			</data>
+		</dict>
+		<key>Resources/image2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3ocoYNBHx3/oucLfTyeDUxIdn0NWPqq3p3eyfcFJaVg=
 			</data>
 		</dict>
 	</dict>
